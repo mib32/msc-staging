@@ -15,7 +15,7 @@ theme.Sections = function Sections() {
     .on('shopify:block:select', this._onBlockSelect.bind(this))
     .on('shopify:block:deselect', this._onBlockDeselect.bind(this));
 };
-
+// cccchhhhaaaanngge
 theme.Sections.prototype = _.assignIn({}, theme.Sections.prototype, {
   _createInstance: function(container, constructor) {
     var $container = $(container);
